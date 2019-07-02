@@ -9,7 +9,7 @@ fs.readdir('katalog', 'utf-8', function(err, data) {
         console.log('Zapisano!'.yellow);
         fs.readFile("./Nowy zapisany plik z zawartocią folderu 'katalog'.txt", 'utf-8', function(err, data) {
             console.log('Dane po zapisie'.blue)
-            console.log(data);
+            console.log();
         });
     });
 });
